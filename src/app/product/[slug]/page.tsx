@@ -23,7 +23,6 @@ async function getData(slug: string) {
 
 async function Page({ params }: { params: { slug: string } }) {
   const data: FullProduct = await getData(params.slug);
-  // console.log(data);
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-2xl px-4 sm:px-6 lg:max-w-7xl lg:px-8 md:px-8">

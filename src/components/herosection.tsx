@@ -25,7 +25,7 @@ async function HeroSection() {
        
         <div className="flex flex-col mb-6 w-full justify-center sm:mb-12 lg:mb-0 lg:w-1/3 lg:pb-24 lg:pt-48">
           <h1 className="text-4xl font-bold text-black mb-4 sm:text-5xl md:text-6xl md:mb-8">
-            Top Fashion for a top proce!
+            <span className="text-primary">Top Fashion </span>for a top price!
           </h1>
           <p className="max-w-md leading-relaxed text-gray-500 xl:text-lg">
             We sell only the most exclusive and high quality products for you.

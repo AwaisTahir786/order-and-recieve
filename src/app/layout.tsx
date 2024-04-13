@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/navbar";
 import CartProvider from "@/components/Providers";
 import ShoppingCartModel from "@/components/ShoppingCartModel";
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
